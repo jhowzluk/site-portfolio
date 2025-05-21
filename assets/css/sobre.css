@@ -1,0 +1,17 @@
+main section {
+    background-color: #f0f8ff;
+    padding: 2rem;
+    border-radius: 8px;
+    line-height: 1.8;
+}
+
+/* Adicione uma imagem de perfil (opcional) */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    display: block;
+    border: 3px solid #0077b6;
+}

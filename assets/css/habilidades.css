@@ -1,0 +1,22 @@
+main section {
+    background-color: #f0f8ff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+/* Exemplo de grid para habilidades (caso queira listar) */
+.habilidades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.habilidade-item {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #0077b6;
+    border-radius: 4px;
+    flex: 1 1 150px;
+    text-align: center;
+}

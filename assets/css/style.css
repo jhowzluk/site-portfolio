@@ -1,0 +1,73 @@
+/* Reset básico e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho (compartilhado) */
+header {
+    background-color: #0077b6; /* Azul principal */
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* Main (estrutura base) */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    flex: 1;
+    padding-bottom: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Rodapé (compartilhado) */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-top: auto;
+}
